@@ -1,0 +1,27 @@
+.enlace {
+  display: flex;
+}
+
+.cont-home {
+  padding: 5%;
+}
+
+.btn-col {
+  background-color: #f8f015;
+  color: #0c0041;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn-mex {
+  background-color: #053f1d;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}

@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  transition: background-color 0.3s; /* Transición para el cambio de color al hacer scroll */
+  padding: 10px 0; /* Espaciado interno superior e inferior */
+}
+
+/* Estilo para la barra de navegación al hacer scroll */
+.navbar.scrolled {
+  background-color: #555; /* Color de fondo diferente al hacer scroll */
+}
+
+/* Estilos para el botón del menú móvil */
+.navbar-toggler {
+  border: none; /* Elimina el borde del botón */
+  background: transparent; /* Fondo transparente */
+}
+
+/* Estilos para los íconos del botón del menú móvil */
+.menu-bar {
+  width: 25px; /* Ancho de las barras del ícono */
+  height: 3px; /* Alto de las barras del ícono */
+  background-color: #fff; /* Color de las barras del ícono */
+  margin: 4px 0; /* Espaciado entre las barras del ícono */
+}
+
+/* Estilos para los enlaces del menú de navegación */
+.navbar-brand,
+.navbar-nav a {
+  color: #fff; /* Color de texto de los enlaces */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  margin: 0 15px; /* Espaciado entre los enlaces */
+  transition: color 0.3s; /* Transición para el cambio de color al pasar el mouse */
+}
+
+.navbar-brand:hover,
+.navbar-nav a:hover {
+  color: #00f; /* Cambia el color de texto al pasar el mouse */
+}
+
+.collapse.navbar-collapse.show {
+  background-color: #333; /* Color de fondo del menú móvil */
+  position: absolute; /* Asegura que el menú se superponga a la barra de navegación */
+  top: 56px; /* Ajusta la posición superior para evitar superposición */
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+}
+
+.collapse.navbar-collapse.show a {
+  color: #fff; /* Color de texto en el menú móvil */
+  text-align: center; /* Centra el texto en los enlaces */
+  display: block; /* Convierte los enlaces en bloques para ocupar todo el ancho */
+  margin: 15px 0; /* Espaciado entre los enlaces */
+  font-size: 18px; /* Tamaño de fuente más grande para enlaces en el menú móvil */
+}
+
+.btn-home {
+  background-color: #8d5500;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
